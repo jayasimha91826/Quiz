@@ -36,17 +36,18 @@ const Main = () => {
           <label for="category">Select category</label>
           <select onChange={handleCategory} name="category" id="category" value={category}>
             <option value="" disabled>Select a Topic</option>
-            <option value="Category 1">Topic1</option>
-            <option value="Category 2">Topic2</option>
-            <option value="Category 3">Topic3</option>
+            <option value="Category 1">React</option>
+            <option value="Category 2">HTML</option>
+            <option value="Category 3">CSS</option>
+            <option value="Category 4">JavaScript</option>
           </select>
           <br />
           <label for="difficulty">Select Difficulty</label>
           <select onChange={handleDifficulty} name="difficulty" id="difficulty" value={difficulty}>
             <option value="" disabled>Select a Level</option>
-            <option value="easy">Level1</option>
-            <option value="medium">Level2</option>
-            <option value="hard">Level3</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
           </select>
           <br />
           <button className="start" onClick={handleStarted}>
