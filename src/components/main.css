@@ -1,0 +1,32 @@
+.labelcontainer{
+  /* background-color: antiquewhite; */
+  border-radius: 1rem;
+  width: 17rem;
+  text-align: center;
+  padding: 1rem;
+  margin-left: 5rem;
+  color: white;
+  
+}
+#category{
+    margin: 1rem;
+}
+#difficulty{
+    margin: 1rem;
+}
+.start{
+    margin-top: 4px;
+    background-color: transparent;;
+    border: 0px;
+    color: white;
+    margin-left: 2rem;
+    width: 5rem;
+    height: 30px;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+.start:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
